@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+  /* Header*/
+  header {
+    flex-direction: row;
+    justify-content: space-between;    
+  }
+  .backFoto {
+    width: 35%;
+    padding: 40px 0;
+  }
+  .fotoPerfil {
+    width: 39%;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  header h2 {
+    font-size: 26px;
+  }
+  .download {
+    align-self: flex-start;
+    margin: 10px 10px 0 0;
+  }
+  /* Main */
+  main {
+    display: flex;
+    padding: 0;
+  }
+  .sectionInfoGral {
+    width: 35%;
+    padding-bottom: 100px;
+  }
+  .container {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Header */
+  .fotoPerfil {
+    width: 48%;
+    height: 160px;
+  }
+  h1 {
+    font-size: 54px;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+  /* Main*/
+  .sectionInfoGral {
+    padding-bottom: 150px;
+  }
+}
+
+@media (min-width: 1300px) {
+  /* Header */
+  .fotoPerfil {
+    height: 200px;
+  }
+  /* Main */
+  .sectionInfoGral {
+    padding-bottom: 200px;
+  }
+  .container section p,
+  .container section dl li {
+    width: 70%;
+  }
+}

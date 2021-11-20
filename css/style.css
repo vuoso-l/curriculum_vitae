@@ -1,0 +1,114 @@
+/* Estilos compartidos */
+main{  
+  padding: 20px 0;
+}
+.sectionInfoGral, .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.sectionInfoGral section, .container section, .container section dl{
+  padding: 10px 0;
+}
+
+.sectionInfoGral h2, .container h2{
+  padding-bottom: 10px;
+}
+
+.sectionInfoGral section ul li,  .container section dl dt{
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+/* Estilos de la sección de información general */
+.sectionInfoGral{  
+  background-color: #335382;
+}
+
+.sectionInfoGral section {
+  width: 50%;  
+}
+
+.sectionInfoGral h2 {
+  color: #ffffff;
+}
+
+.sectionInfoGral section ul {
+  flex-direction: column;
+}
+
+.sectionInfoGral section ul li {
+  color: #ffffffe0;
+}
+
+.sectionInfoGral section a{
+  color: white;
+}
+
+.location::before {
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  padding-right: 10px;
+}
+
+.email::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  padding-right: 10px;
+}
+
+.portfolio::before {
+  content: "\f109";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  padding-right: 10px;
+}
+
+.linkedIn::before {
+  content: "\f08c";
+  font-family: "Font Awesome 5 Brands";
+  color: white;
+  padding-right: 10px;
+}
+
+.skill li::before {
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  color: white;
+  font-weight: 900;
+  padding-right: 10px;
+  font-size: 6px;
+}
+
+.language li::before {
+  content: "\f02e";
+  font-family: "Font Awesome 5 Free";
+  color: white;
+  font-weight: 900;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+/* Estilos de la sección de container */
+.container section{
+  width: 75%;
+}
+
+.container h2{
+  color: #83c1e0;
+}
+
+.container section p{
+  text-align: justify;
+  padding: 5px 0;
+}
+
+.container section dl dt, .container section dl li{
+  color: grey;
+}
