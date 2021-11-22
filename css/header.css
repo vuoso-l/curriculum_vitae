@@ -47,23 +47,25 @@ header h2 {
   color: #7fb8d5;
 }
 
-.download {
-  padding: 6px;
+.download{
   align-self: flex-end;
+}
+
+.download button{
+  padding: 6px;  
   background-color: lightsteelblue;
   border-radius: 70px;
 }
 
-.download a{
-  color: white;
-  font-size: 12px;
-}
-
-.download::before {
+.download button::before {
   content: "\f56d";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: white;
   padding-right: 4px;
   font-size: 12px;
+}
+
+.download button:hover{
+  cursor: pointer;
 }

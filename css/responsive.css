@@ -2,7 +2,7 @@
   /* Header*/
   header {
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
   }
   .backFoto {
     width: 35%;
@@ -18,11 +18,13 @@
     font-size: 26px;
   }
   .download {
-    padding: 10px;
     align-self: flex-start;
+  }
+  .download button {
+    padding: 10px;
     margin: 10px 10px 0 0;
   }
-  .download a, .download::before{
+  .download button::before {
     font-size: 16px;
   }
   /* Main */
@@ -32,7 +34,6 @@
   }
   .sectionInfoGral {
     width: 35%;
-    padding-bottom: 100px;
   }
   .container {
     width: 65%;
@@ -51,20 +52,24 @@
   header h2 {
     font-size: 30px;
   }
-  /* Main*/
-  .sectionInfoGral {
-    padding-bottom: 150px;
+  /* Main */
+  .container {
+    height: 1180px;
   }
 }
 
 @media (min-width: 1280px) {
   /* Header */
   .fotoPerfil {
-    height: 200px;
+    width: 60%;
+    height: 250px;
   }
   /* Main */
-  .sectionInfoGral {
-    padding-bottom: 200px;
+  .container {
+    align-items: flex-end;
+  }
+  .container section {
+    width: 80%;
   }
   .container section p,
   .container section dl li {
