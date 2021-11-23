@@ -67,3 +67,7 @@ header h2 {
   padding-right: 4px;
   font-size: 12px;
 }
+
+.download:hover{
+  cursor: pointer;
+}
