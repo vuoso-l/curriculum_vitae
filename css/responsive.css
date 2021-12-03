@@ -1,3 +1,24 @@
+@media (min-width: 375px) {
+  /* Header*/
+  .fotoPerfil {
+    height: 100px;
+  }
+}
+
+@media (min-width: 420px) {
+  /* Header*/
+  .fotoPerfil {
+    width: 25%;
+  }
+}
+
+@media (min-width: 540px) {
+  /* Header*/
+  .fotoPerfil {
+    height: 120px;
+  }
+}
+
 @media (min-width: 768px) {
   /* Header*/
   header {
@@ -9,7 +30,7 @@
     padding: 40px 0;
   }
   .fotoPerfil {
-    width: 39%;
+    width: 45%;
   }
   h1 {
     font-size: 46px;
