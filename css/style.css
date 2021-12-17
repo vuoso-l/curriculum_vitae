@@ -109,6 +109,7 @@ main{
 .container section p{
   text-align: justify;
   padding: 5px 0;
+  color: gray;
 }
 
 .container section dl dt, .container section dl li{
