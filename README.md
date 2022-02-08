@@ -1,3 +1,10 @@
-## Enlace que redirecciona al Curriculum vitae de Lucas Vuoso
+# CV - Lucas Vuoso
 
-- [Curriculum vitae](https://vuoso-l.github.io/curriculum_vitae/)
+## To see the project, enter in the folowing link
+
+- [CV - Lucas Vuoso](https://vuoso-l.github.io/curriculum_vitae/)
+
+## Used technologies
+- HTML5
+- CSS3
+- Javascript
